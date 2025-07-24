@@ -4,10 +4,12 @@ import javax.swing.JFrame;
 
 public class VentanaPrincipal extends javax.swing.JFrame {
 
+    //declaro una variable para mostrar el usuario logiado
     private String name;
     
     
     public VentanaPrincipal(String user) {
+        //le asigno a la variable el usuario logiado
         this.name = user;
         
         initComponents();

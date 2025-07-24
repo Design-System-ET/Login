@@ -1,6 +1,5 @@
 package com.design_system.login.SQL;
 
-import com.design_system.login.GUI.LoguinGUI;
 import com.design_system.login.GUI.VentanaPrincipal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -36,6 +35,7 @@ public class ValidarLogin {
             try(
                 ResultSet resultSet = preparedStatement.executeQuery()){
                 
+                //evaluo el resultado de la consulta
                 if(resultSet.next()){
                     
                     //llamo a la ventana principal

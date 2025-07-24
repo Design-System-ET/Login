@@ -12,7 +12,7 @@ public class Conectar implements Resources{
     public Connection conectar() {
         try {
             Connection conn = DriverManager.getConnection(URL, USER, PASS);
-            JOptionPane.showMessageDialog(null, "Conexion exitosa");
+            //JOptionPane.showMessageDialog(null, "Conexion exitosa");
             return conn;
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Error de conexion: " + e.getMessage());
