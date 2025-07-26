@@ -1,7 +1,5 @@
 package com.design_system.login.GUI;
 
-import javax.swing.JFrame;
-
 public class VentanaPrincipal extends javax.swing.JFrame {
 
     //declaro una variable para mostrar el usuario logiado

@@ -1,9 +1,0 @@
-com\design_system\login\GUI\VentanaPrincipal.class
-com\design_system\login\Login$1.class
-com\design_system\login\GUI\LoguinGUI$1.class
-com\design_system\login\Login.class
-com\design_system\login\SQL\Conectar.class
-com\design_system\login\GUI\LoguinGUI.class
-com\design_system\login\GUI\VentanaPrincipal$1.class
-com\design_system\login\SQL\ValidarLogin.class
-com\design_system\login\SQL\Resources.class

@@ -1,6 +1,6 @@
 package com.design_system.login.GUI;
 
-import com.design_system.login.SQL.ValidarLogin;
+import com.design_system.login.logica.ValidarLogin;
 
 public class LoguinGUI extends javax.swing.JFrame {
 

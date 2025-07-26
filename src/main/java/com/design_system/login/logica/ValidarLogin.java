@@ -1,6 +1,7 @@
-package com.design_system.login.SQL;
+package com.design_system.login.logica;
 
 import com.design_system.login.GUI.VentanaPrincipal;
+import com.design_system.login.SQL.Conectar;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
